@@ -1,0 +1,234 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.bg {
+    height: 100dvh;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.center {
+    position: relative;
+}
+
+.foot {
+    height: 80px;
+    width: 300px;
+    background-color: rgb(234, 232, 232);
+    position: absolute;
+    top: 120px;
+    left: -150px;
+    border-radius: 50%;
+    z-index: 0;
+}
+
+.left_legs1 {
+    height: 60px;
+    width: 20px;
+    background-color: orange;
+    position: absolute;
+    border-radius: 0 0 90% 90%;
+    transform: rotate(65deg);
+    top: 110px;
+    left: -90px;
+    z-index: 1;
+    border: 2px solid orange;
+}
+
+.left_legs2 {
+    height: 50px;
+    width: 20px;
+    background-color: orange;
+    position: absolute;
+    border-radius: 0 0 90% 90%;
+    transform: rotate(50deg);
+    top: 130px;
+    left: -80px;
+    z-index: 1;
+    border: 2px solid orange;
+}
+
+.left_legs3 {
+    height: 50px;
+    width: 20px;
+    background-color: orange;
+    position: absolute;
+    border-radius: 0 0 90% 90%;
+    transform: rotate(30deg);
+    top: 130px;
+    left: -60px;
+    border: 2px solid orange;
+    z-index: 1;
+}
+
+.right_legs1 {
+    height: 50px;
+    width: 20px;
+    background-color: orange;
+    position: absolute;
+    transform: rotate(-30deg);
+    top: 130px;
+    right: -60px;
+    border: 2px solid orange;
+    z-index: 1;
+    border-radius: 0 0 90% 90%;
+}
+
+.right_legs2 {
+    height: 50px;
+    width: 20px;
+    background-color: orange;
+    position: absolute;
+    transform: rotate(-50deg);
+    border-radius: 0 0 90% 90%;
+    border: 2px solid orange;
+    z-index: 1;
+    top: 130px;
+    right: -80px;
+}
+
+.right_legs3 {
+    height: 50px;
+    width: 20px;
+    background-color: orange;
+    position: absolute;
+    transform: rotate(-60deg);
+    border-radius: 0 0 90% 90%;
+    border: 2px solid orange;
+    z-index: 1;
+    top: 120px;
+    right: -100px;
+}
+
+.body {
+    position: absolute;
+    height: 300px;
+    width: 220px;
+    background-color: rgb(8, 35, 56);
+    bottom: -150px;
+    right: -115px;
+    z-index: 2;
+    border-radius: 60% 60% 50% 50%;
+}
+
+.belly1 {
+    position: absolute;
+    height: 240px;
+    width: 160px;
+    background-color: rgb(205, 204, 204);
+    z-index: 3;
+    border-radius: 70% 70% 50% 50%;
+    right: 30px;
+    top: 20px;
+}
+
+.belly11 {
+    position: absolute;
+    height: 200px;
+    width: 140px;
+    background-color: white;
+    z-index: 4;
+    border-radius: 70% 70% 90% 90%;
+    right: 10px;
+    top: 10px;
+}
+
+.head {
+    position: absolute;
+    height: 150px;
+    width: 190px;
+    background-color: rgb(8, 35, 56);
+    top: -240px;
+    border-radius: 50%;
+    z-index: 5;
+    left: -95px;
+}
+
+.gray_head {
+    position: absolute;
+    background: linear-gradient(to top, rgb(205, 204, 204) 60%, rgb(8, 35, 56) 40% );
+    z-index: 6;
+    border-radius: 50%;
+    height: 130px;
+    width: 150px;
+    left: 21px;
+    top: 25px;
+}
+
+.white_head {
+    position: absolute;
+    background: linear-gradient(to top, white 50%, rgb(8, 35, 56) 50% );
+    z-index: 7;
+    border-radius: 100%;
+    height: 110px;
+    width: 150px;
+}
+
+.left_white_head {
+    position: absolute;
+    height: 100px;
+    width: 80px;
+    background-color: white;
+    z-index: 8;
+    border-radius: 50%;
+}
+
+.right_white_head {
+    position: absolute;
+    height: 100px;
+    width: 80px;
+    background-color: white;
+    z-index: 8;
+    border-radius: 50%;
+    right: 0;
+}
+
+.left_eye {
+    position: absolute;
+    height: 30px;
+    width: 30px;
+    background-color: rgb(44, 44, 44);
+    z-index: 9;
+    border-radius: 50%;
+    left: 20px;
+    top: 30px;
+}
+
+.right_eye {
+    position: absolute;
+    height: 30px;
+    width: 30px;
+    background-color: rgb(44, 44, 44);
+    z-index: 9;
+    border-radius: 50%;
+    right: 20px;
+    top: 30px;
+}
+
+.white_left_eye {
+    position: absolute;
+    height: 10px;
+    width: 10px;
+    background-color: white;
+    z-index: 10;
+    border-radius: 50%;
+    right: 5px;
+    top: 5px;
+}
+
+.white_right_eye {
+    position: absolute;
+    height: 10px;
+    width: 10px;
+    background-color: white;
+    z-index: 10;
+    border-radius: 50%;
+    right: 5px;
+    top: 5px;
+}
