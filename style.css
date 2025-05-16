@@ -232,3 +232,84 @@
     right: 5px;
     top: 5px;
 }
+
+.nose {
+    position: absolute;
+    height: 20px;
+    width: 40px;
+    background-color: orange;
+    border-radius: 100% 100% 0 0;
+    z-index: 9;
+    top: 70px;
+    left: 55px;
+    border: 1px solid orange;
+}
+
+.nose_left_remove {
+    background-color: white;
+    height: 20px;
+    width: 40px;
+    border-radius: 50%;
+    position: absolute;
+    z-index: 10;
+    top: 80px;
+    left: 35px;
+}
+
+.nose_right_remove {
+    background-color: white;
+    height: 20px;
+    width: 40px;
+    border-radius: 50%;
+    position: absolute;
+    z-index: 10;
+    top: 80px;
+    right: 35px;
+}
+
+.left_blush {
+    height: 10px;
+    width: 30px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: pink;
+    z-index: 9;
+    top: 70px;
+    left: 10px;
+}
+
+.right_blush {
+    height: 10px;
+    width: 30px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: pink;
+    z-index: 9;
+    top: 70px;
+    right: 10px;
+}
+
+.left_hand {
+    height: 280px;
+    width: 50px;
+    position: absolute;
+    background-color: rgb(8, 35, 56);
+    border-radius: 50%;
+    z-index: 1;
+    bottom: -90px;
+    left: -110px;
+    transform: rotate(30deg);
+}
+
+.right_hand {
+    height: 280px;
+    width: 50px;
+    position: absolute;
+    background-color: rgb(8, 35, 56);
+    border-radius: 50%;
+    z-index: 1;
+    transform: rotate(-30deg);
+    right: -120px;
+    top: -200px;
+    
+}
